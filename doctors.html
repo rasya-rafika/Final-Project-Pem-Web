@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daftar Dokter Hewan</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Manajemen Dokter Hewan</h1>
+
+    <form id="doctorForm">
+        <input type="text" id="doctorName" placeholder="Nama Dokter" required>
+        <input type="text" id="specialization" placeholder="Spesialisasi" required>
+        <input type="tel" id="phoneNumber" placeholder="Nomor Telepon" required>
+        <button type="submit">Tambah Dokter</button>
+    </form>
+
+    <table id="doctorTable">
+        <thead>
+            <tr>
+                <th>Nama</th>
+                <th>Spesialisasi</th>
+                <th>Nomor Telepon</th>
+                <th>Aksi</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Data dokter akan ditambahkan di sini -->
+        </tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>

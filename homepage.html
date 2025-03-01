@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetCare+ | Manajemen Konsultasi & Adopsi Hewan</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <h1>🐾 PetCare+</h1>
+        <nav>
+            <ul>
+                <li><a href="#">🏠 Home</a></li>
+                <li><a href="#dokter">🩺 Cari Dokter</a></li>
+                <li><a href="#adopsi">🐶 Adopsi Hewan</a></li>
+                <li><a href="#kontak">📞 Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="dokter" class="container">
+        <h2>🔎 Cari Dokter Hewan</h2>
+        <div class="search-box">
+            <input type="text" id="cariDokter" placeholder="🔍 Cari berdasarkan lokasi atau spesialisasi...">
+            <button onclick="cariDokter()">Cari</button>
+        </div>
+        <ul id="listDokter" class="list"></ul>
+    </section>
+    
+    <section id="adopsi" class="container">
+        <h2>🏡 Daftar Hewan untuk Adopsi</h2>
+        <ul id="listHewan" class="list"></ul>
+    </section>
+    
+    <section id="kontak" class="container">
+        <h2>📞 Hubungi Kami</h2>
+        <p>Jika ada pertanyaan, silakan hubungi kami melalui:</p>
+        <ul>
+            <li>📧 Email: <a href="mailto:info@petcareplus.com">info@petcareplus.com</a></li>
+            <li>📍 Alamat: Jl. Paw Street No. 10, CatCity</li>
+            <li>📱 Telepon: +62 812-3456-7890</li>
+        </ul>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 PetCare+. Dibuat dengan ❤️ untuk hewan kesayanganmu.</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>

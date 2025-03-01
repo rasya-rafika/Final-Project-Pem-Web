@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adopsi Hewan</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Adopsi Hewan</h1>
+
+    <form id="adoptForm">
+        <input type="text" id="petName" placeholder="Nama Hewan" required>
+        <input type="text" id="petType" placeholder="Jenis" required>
+        <button type="submit">Tambah Hewan</button>
+    </form>
+
+    <input type="text" id="search" placeholder="Cari hewan..." onkeyup="searchPet()">
+
+    <table id="petTable">
+        <thead>
+            <tr>
+                <th>Nama Hewan</th>
+                <th>Jenis</th>
+                <th>Aksi</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Data hewan akan ditambahkan di sini -->
+        </tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>

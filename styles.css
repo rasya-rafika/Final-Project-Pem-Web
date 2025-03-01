@@ -1,0 +1,180 @@
+/* Global */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ECF0F1;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background-color: #2C3E50;
+    padding: 20px;
+    color: white;
+    border-radius: 0 0 10px 10px;
+}
+
+h1 {
+    font-size: 28px;
+    margin: 0;
+}
+
+.highlight {
+    color: #1ABC9C;
+}
+
+/* Navbar */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #1ABC9C;
+}
+
+/* Intro Section */
+#intro {
+    padding: 50px 20px;
+    max-width: 600px;
+    margin: 50px auto;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    color: #34495E;
+}
+
+p {
+    font-size: 16px;
+    color: #7F8C8D;
+}
+
+/* Call To Action Button */
+.cta-button {
+    background-color: #1ABC9C;
+    color: white;
+    font-size: 18px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #16A085;
+}
+
+/* Footer */
+footer {
+    background-color: #2C3E50;
+    color: white;
+    padding: 15px;
+    border-radius: 10px 10px 0 0;
+    margin-top: 50px;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ECF0F1;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    background-color: #2C3E50;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+/* Form */
+form {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #BDC3C7;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 30%;
+}
+
+button {
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: #1ABC9C;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* Tabel */
+table {
+    width: 100%;
+    margin: 20px 0;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+th, td {
+    border: 1px solid #BDC3C7;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #34495E;
+    color: white;
+}
+
+/* Tombol Edit dan Hapus */
+button.edit {
+    background-color: #F1C40F;
+}
+
+button.delete {
+    background-color: #E74C3C;
+}
+
